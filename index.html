@@ -22,17 +22,9 @@
     <!-- google fonts start -->
     <link href="https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900" rel="stylesheet"
         type="text/css">
+    <link rel="stylesheet" href="/css/topbar.css">
     <!-- google fonts end -->
     <style>
-        @media (max-width:768px) {
-            .topbar-nav {
-                display: none !important;
-            }
-
-            .topbar {
-                padding-block: 3rem !important
-            }
-        }
     </style>
 </head>
 
@@ -55,11 +47,11 @@
 
         <nav class="topbar-nav"
             style="color: white;z-index: 3;display: flex;flex-wrap: wrap;background: none;gap:4rem;position: absolute; transform: (-50%,-50%);left:0;right:0;justify-content: center;">
-            <div>Home</div>
-            <div>Team</div>
-            <div>Courses</div>
-            <div>Portfolio</div>
-            <div>Contact Us</div>
+            <a class="topbar-nav-item" href="/">Home</a>
+            <a class="topbar-nav-item" href="/team.html">Team</a>
+            <a class="topbar-nav-item" href="/works.html">Courses</a>
+            <a class="topbar-nav-item" href="/news.html">Portfolio</a>
+            <a class="topbar-nav-item" href="contact.html">Contact Us</a>
         </nav>
 
         <!-- logo end -->
@@ -71,6 +63,7 @@
             </div>
         </div>
     </div>
+
     <!-- navigation button end -->
     <!-- navigation panel left start -->
     <div class="panel-overlay-from-left panel-overlay-from-left-home">
