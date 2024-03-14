@@ -482,7 +482,7 @@ strong {
 
 .panel-from-right {
   position: fixed;
-  width: 100%;
+  width: 75%;
   height: 100%;
   overflow-x: hidden;
   overflow-y: auto;
